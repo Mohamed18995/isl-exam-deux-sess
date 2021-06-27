@@ -1,0 +1,22 @@
+/* copyright mon magnifique CSS */
+
+// import reset css
+
+// fichier de base
+@import "base/variables";
+@import "base/base";
+
+// layout simple
+// @import "layout/layout";
+
+// layout complex
+@import "layout/header";
+@import "layout/nav";
+@import "layout/footer";
+@import "layout/layout";
+
+// modules
+@import "modules/main";
+
+// Pages
+@import "./about"; // réalisation
