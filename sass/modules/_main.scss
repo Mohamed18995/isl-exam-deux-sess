@@ -92,6 +92,11 @@
     }
 }
 .infos-pictures{
+    .design-txt{
+        img{
+            width: 100%;
+        }
+    }
     p{
         text-align: center;
     }
@@ -113,5 +118,35 @@
     .infos-about-post{
         width: 93%;
         margin: 0 auto;
+        img{
+            width: 100%;
+        }
+        .post-picture-txt{
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
+    }
+}
+.about-posts{
+    .info-comment{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 0.2px solid $txt;
+        padding-bottom: 0.5rem;
+        img{
+            width: 30px;
+        }
+        .mark{
+            margin-right: 55%;
+        }
+        .icon-heart{
+            padding-left: 7px;
+            padding-right: 4px;
+        }
+        .icon-comment{
+            padding-left: 7px;
+            padding-right: 4px;
+        }
     }
 }

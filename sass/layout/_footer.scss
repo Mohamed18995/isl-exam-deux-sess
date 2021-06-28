@@ -1,0 +1,47 @@
+.l-main-footer{
+    background-color: $title;
+    color: $Couleur3;
+    .row{
+        width: 93%;
+        margin: 0 auto;
+        padding-top: 4rem;
+        padding-bottom: 9rem;
+        p{
+            color: $txt;
+        }
+        .word-colorlib{
+            color: $bannerBg1;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+    .login-form{
+        padding: 0.6rem;
+        position: relative;
+        border: 1px solid transparent;
+        background-color: $Couleur3;
+        color: $txt;
+        bottom: 12px;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+        input{
+            border: transparent;
+            color: $Btn2;
+        }
+        i{
+            position: absolute;
+            color: $Couleur3;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: $Btn1;
+            padding: 16px;
+        }
+    }
+    .icons{
+        font-size: 9px;
+        i{
+            margin: 7px;
+        }
+    }
+}
