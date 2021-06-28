@@ -46,7 +46,7 @@ h6 {
   margin-top: 1rem; }
 
 p {
-  font-size: 12px; }
+  font-size: 10px; }
 
 .l-main-header .nav-container {
   width: 91%;
@@ -63,6 +63,11 @@ p {
 .l-main-header .nav-menu {
   display: none; }
 
+/* version tablette */
+@media screen and (min-width: 720px) {
+  .l-main-header .l-main-header-menu menu-icon {
+    display: none; } }
+
 .l-main-footer {
   background-color: #222222;
   color: #fff; }
@@ -75,7 +80,7 @@ p {
       color: #777777; }
     .l-main-footer .row .word-colorlib {
       color: #8490ff;
-      font-size: 12px;
+      font-size: 10px;
       font-weight: bold; }
   .l-main-footer .login-form {
     padding: 0.6rem;
@@ -163,7 +168,7 @@ p {
   padding-bottom: 5rem; }
   .about-number-stats .details {
     color: #fff;
-    width: 28%;
+    width: 30%;
     margin: 0 auto;
     text-align: center; }
   .about-number-stats p:first-child {
@@ -217,14 +222,14 @@ p {
   align-items: center;
   justify-content: space-between;
   border-bottom: 0.2px solid #777777;
-  padding-bottom: 0.5rem; }
+  padding-bottom: 0.5rem;
+  color: #777777; }
   .about-posts .info-comment img {
     width: 30px; }
   .about-posts .info-comment .mark {
-    margin-right: 55%; }
+    margin-right: 37%; }
   .about-posts .info-comment .icon-heart {
     padding-left: 7px;
-    padding-right: 4px; }
+    padding-right: 3px; }
   .about-posts .info-comment .icon-comment {
-    padding-left: 7px;
-    padding-right: 4px; }
+    padding-left: 9px; }

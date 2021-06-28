@@ -15,3 +15,12 @@
         display: none;
     }
 }
+
+/* version tablette */
+@media screen and (min-width: 720px) {
+    .l-main-header{
+        .l-main-header-menu menu-icon{
+            display: none;
+        }
+    }
+}
