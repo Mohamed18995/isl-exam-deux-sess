@@ -47,3 +47,31 @@ h6{
 p{
   font-size: 10px;
 }
+
+/*    version  tablette  */
+
+@media screen and (min-width: 720px) {
+  h1{
+    font-size: 9px;
+  }
+  h2{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h3{
+    font-size: 17px;
+    padding-top: 3rem;
+  }
+  h4{
+    font-size: 10px;
+  }
+  h5{
+    font-size: 10px;
+  }
+  h6{
+    font-size: 8px;
+  }
+  p{
+    font-size: 8px;
+  }
+}

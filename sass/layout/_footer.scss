@@ -45,3 +45,37 @@
         }
     }
 }
+
+/*    version  tablette  */
+
+@media screen and (min-width: 720px) {
+    .l-main-footer{
+        .row{
+            display: flex;
+            width: 95%;
+            margin: 0 auto;
+            padding: 13px;
+            .word-colorlib{
+                font-size: 8px;
+            }
+        }
+        div{
+            margin: 3.5%;
+        }
+        .newsletter-txt{
+            width: 70%;
+            margin-left: 0;
+            padding-left: 0;
+        }
+        .follow-media-icons{
+            margin-left: 0;
+            p{
+                width: 100px;
+            }
+            i{
+                font-size: 7px;
+                margin: 3.5px;
+            }
+        }
+    }
+}

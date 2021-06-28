@@ -6,3 +6,10 @@
     width: 170px;
     background-color: $Btn1;
 }
+@media screen and (min-width: 720px) {
+   .btn{
+        font-size: 5px;
+        width: 80px;
+        padding: 0.3rem;
+    }
+}

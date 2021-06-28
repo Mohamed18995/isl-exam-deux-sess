@@ -1,32 +1,3 @@
-.about-me-wrapper{
-    background-color: $main;
-}
-.info-isl-picture{
-    width: 93%;
-    margin: 0 auto;
-    padding-top: 28px;
-    padding-bottom: 20px;
-    h1{
-        letter-spacing: 2px;
-    }
-    .isl{
-        display: block;
-        padding-top: 10px;
-        font-size:20px;
-        font-weight: bold;
-        letter-spacing: 0;
-    }
-    .hero-picture{
-        width: 30%;
-        margin: 0 auto;
-        padding-top: 50px;
-        img{
-            width: 130px;
-            
-            
-        }
-    }
-}
 .about-me-details-txt{
     width: 93%;
     margin: 0 auto;
@@ -57,7 +28,7 @@
     }
 }
 .about-number-stats{
-    background-color: $bannerBg1;
+    background-color: $bannerBg2;
     padding-top: 4rem;
     padding-bottom: 5rem;
     .details{
@@ -128,6 +99,7 @@
     }
 }
 .about-posts{
+    padding-bottom: 2rem;
     .info-comment{
         display: flex;
         align-items: center;
@@ -149,5 +121,119 @@
             padding-left: 9px;
         }
         
+    }
+}
+.several-pictures{
+    background-color: $bannerBg2;
+    padding: 3rem;
+    text-align: center;
+    .image{
+        display: none;
+    }
+}
+
+/* version tablette */
+
+@media screen and (min-width: 720px) {
+    .about-me-details-txt{
+        display: flex;
+        width: 82%;
+        margin: 0 auto;
+        .man-picture{
+            img{
+                width: 250%;
+                height: 250px;
+            }
+        }
+        margin-bottom: 0;
+        .info-personal-txt{
+            padding-left:40%;
+            padding-top: 5rem;
+        }
+    }
+    .my-offered-services-txt{
+        p{
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+    .services-content{
+        width: 94%;
+        margin: 0 auto;
+        display: flex;
+        i{
+            font-size: 12px;
+        }
+
+    }
+    .about-number-stats{
+        padding: 2.5rem;
+    }
+    .contor-txt{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        p:first-child{
+            font-size: 17px;
+        }
+    }
+    .infos-pictures{
+        display: flex;
+        width: 97%;
+        margin: 0 auto;
+        .design-txt{
+            margin: 7px;
+        }
+    }
+    .latest-post-txt{
+        p{
+            width: 60%;
+            margin: 0 auto;
+            padding-bottom: 1.5rem;
+        }
+    }
+    .about-posts{
+        .infos-about-post{
+            display: flex;
+            align-items: center;
+            width: 89%;
+            margin: 0 auto;
+            padding-bottom: 4rem;
+            .post-picture-txt{
+                margin: 5px;
+                align-items: center;
+            }
+            .post-picture-txt:nth-child(2){
+                text-align: center;
+            }
+            img{
+                height: 120px;
+            }
+        }
+        .info-comment{
+            img{
+                width: 20px;
+                height: 20px;
+            }
+            .mark{
+                margin-right: 20%;
+            }
+        }
+    }
+    .several-pictures{
+        padding: 0;
+        .content-pictures{
+            width: 94%;
+            margin: 0 auto;
+            display: flex;
+            padding-left: 0;
+            .image{
+                display: block;
+            }
+            img{
+                margin: 6.7%;
+                width: 50px;
+            }
+        }
     }
 }
