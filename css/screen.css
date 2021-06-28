@@ -53,8 +53,7 @@ p {
   h1 {
     font-size: 9px; }
   h2 {
-    margin-top: 0;
-    margin-bottom: 0; }
+    padding-bottom: 1rem; }
   h3 {
     font-size: 17px;
     padding-top: 3rem; }
@@ -336,14 +335,14 @@ p {
   .about-me-details-txt {
     display: flex;
     width: 82%;
-    margin: 0 auto;
-    margin-bottom: 0; }
+    margin: 0 auto; }
     .about-me-details-txt .man-picture img {
-      width: 250%;
-      height: 250px; }
+      width: 450%; }
     .about-me-details-txt .info-personal-txt {
-      padding-left: 40%;
-      padding-top: 5rem; }
+      padding-left: 45%;
+      padding-top: 5.5rem; }
+      .about-me-details-txt .info-personal-txt p {
+        padding-bottom: 0.5rem; }
   .my-offered-services-txt p {
     width: 50%;
     margin: 0 auto; }

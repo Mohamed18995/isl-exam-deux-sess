@@ -141,14 +141,15 @@
         margin: 0 auto;
         .man-picture{
             img{
-                width: 250%;
-                height: 250px;
+                width: 450%;
             }
         }
-        margin-bottom: 0;
         .info-personal-txt{
-            padding-left:40%;
-            padding-top: 5rem;
+            padding-left:45%;
+            padding-top: 5.5rem;
+            p{
+                padding-bottom: 0.5rem;
+            }
         }
     }
     .my-offered-services-txt{
