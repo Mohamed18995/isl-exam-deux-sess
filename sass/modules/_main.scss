@@ -1,0 +1,117 @@
+.about-me-wrapper{
+    background-color: $main;
+}
+.info-isl-picture{
+    width: 93%;
+    margin: 0 auto;
+    padding-top: 28px;
+    padding-bottom: 20px;
+    h1{
+        letter-spacing: 2px;
+    }
+    .isl{
+        display: block;
+        padding-top: 10px;
+        font-size:20px;
+        font-weight: bold;
+        letter-spacing: 0;
+    }
+    .hero-picture{
+        width: 30%;
+        margin: 0 auto;
+        padding-top: 50px;
+        img{
+            width: 130px;
+            
+            
+        }
+    }
+}
+.about-me-details-txt{
+    width: 93%;
+    margin: 0 auto;
+    .man-picture{
+        width: 45%;
+        margin: 0 auto;
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        img{
+            width: 200px;
+        }
+    }
+}
+.about-services-txt{
+    width: 93%;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+    p{
+        width: 93%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+.services-content{
+    i{
+        padding-left: 50%;
+        padding-top: 3rem;
+    }
+}
+.about-number-stats{
+    background-color: $bannerBg1;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    .details{
+        color: $Couleur3;
+        width: 28%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    p:first-child{
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    p{
+        margin-top: 0;
+    }
+}
+.about-projects{
+    width: 93%;
+    margin: 0 auto;
+    .project-txt{
+        text-align: center;
+        h3{
+            width: 250px;
+            font-size: bold;
+        }
+        p{
+            width: 70%;
+            margin: 0 auto;
+            padding-bottom: 5rem;
+        }
+    }
+}
+.infos-pictures{
+    p{
+        text-align: center;
+    }
+}
+.about-posts{
+    background-color: $main;
+    margin-top: 6rem;
+    .latest-post-txt{
+        width: 93%;
+        margin: 0 auto;
+        h3{
+            width: 100%;
+            margin: 0 auto;
+        } 
+        p{
+            text-align: center;
+        }   
+    }
+    .infos-about-post{
+        width: 93%;
+        margin: 0 auto;
+    }
+}

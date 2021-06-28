@@ -1,7 +1,33 @@
 body {
-    overflow-x: hidden;
-    width: 100%;
-    background-color: $Couleur3;
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-  }
+  overflow-x: hidden;
+  width: 100%;
+  background-color: $Couleur3;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+h1{
+  font-size: 13px;
+}
+h2{
+  font-size: 15px;
+  font-weight: bold;
+}
+h3{
+  font-weight: 30px;
+  font-size: 27px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5px;
+}
+h4{
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 6%;
+  margin-bottom: 10px;
+}
+p{
+  font-size: 10px;
+}

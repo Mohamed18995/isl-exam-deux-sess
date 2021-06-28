@@ -1,5 +1,17 @@
 .l-main-header{
-    h1{
-        color: yellow;
+    .nav-container{
+        width: 91%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 17px;
+        padding-bottom: 15px;
+    }
+    img{
+        height: 23px;
+    }
+    .nav-menu{
+        display: none;
     }
 }
