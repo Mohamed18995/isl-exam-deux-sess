@@ -110,11 +110,8 @@
         img{
             width: 30px;
         }
-        .mark{
-           margin-right: 37%
-        }
         .icon-heart{
-            padding-left: 7px;
+            padding-left: 4px;
             padding-right: 3px;
         }
         .icon-comment{
@@ -159,11 +156,14 @@
         }
     }
     .services-content{
-        width: 94%;
+        width: 87%;
         margin: 0 auto;
         display: flex;
         i{
-            font-size: 12px;
+            font-size: 19px;
+        }
+        div{
+            margin: 2px;
         }
 
     }
@@ -175,7 +175,14 @@
         width: 80%;
         margin: 0 auto;
         p:first-child{
-            font-size: 17px;
+            font-size: 22px;
+        }
+    }
+    .about-projects{
+        .project-txt{
+            h3{
+                width: 330px;
+            }
         }
     }
     .infos-pictures{
@@ -193,48 +200,96 @@
             padding-bottom: 1.5rem;
         }
     }
-    .about-posts{
-        .infos-about-post{
-            display: flex;
-            align-items: center;
-            width: 89%;
-            margin: 0 auto;
-            padding-bottom: 4rem;
-            .post-picture-txt{
-                margin: 5px;
-                align-items: center;
-            }
-            .post-picture-txt:nth-child(2){
-                text-align: center;
-            }
-            img{
-                height: 120px;
+    .infos-about-post{
+        display: flex;
+        width: 89%;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+        .post-picture-txt{
+            margin: 10px;
+            p{
+                margin-left: 0;
             }
         }
-        .info-comment{
-            img{
-                width: 20px;
-                height: 20px;
-            }
-            .mark{
-                margin-right: 20%;
-            }
+        img{
+            height: 190px;
+        }
+    }
+    .info-comment{
+        img{
+            width: 20px;
+            height: 20px;
+        }
+        .mark{
+            margin-right: 20%;
         }
     }
     .several-pictures{
-        padding: 0;
         .content-pictures{
-            width: 94%;
-            margin: 0 auto;
             display: flex;
-            padding-left: 0;
+            margin: 2rem;
             .image{
                 display: block;
             }
             img{
-                margin: 6.7%;
-                width: 50px;
+                width: 90px;
             }
+        }
+    }
+}
+
+/* version PC */
+
+@media screen and (min-width: 900px) {
+    .about-me-details-txt{
+        max-width: 950px;
+        .man-picture{
+            margin-left: 0;
+            margin-right: 0;
+            img{
+                width: 420px;
+            }
+        }
+        .info-personal-txt{
+            padding-top: 6rem;
+            padding-left: 7.8rem;
+            p{
+                width: 385px;
+                padding-bottom: 1rem;
+            }
+        }
+    }
+    .about-services-txt{
+        .my-offered-services-txt{
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .services-content{
+            max-width: 970px;
+            p{
+                width: 260px;
+            }
+            div{
+                margin: 1.5rem;
+            }
+        }
+    }
+    .about-number-stats{
+        .contor-txt{
+            max-width: 920px;
+        }
+    }
+    .about-projects{
+        max-width: 970px;
+    }
+    .about-posts{
+        div{
+            max-width: 940px;
+        }
+    }
+    .several-pictures{
+        .content-pictures{
+            max-width: 980px;
         }
     }
 }

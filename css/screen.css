@@ -53,18 +53,20 @@ p {
   h1 {
     font-size: 9px; }
   h2 {
-    padding-bottom: 1rem; }
+    padding-bottom: 1rem;
+    font-size: 24px;
+    font-weight: bold; }
   h3 {
-    font-size: 17px;
+    font-size: 22px;
     padding-top: 3rem; }
   h4 {
-    font-size: 10px; }
+    font-size: 14px; }
   h5 {
-    font-size: 10px; }
+    font-size: 14px; }
   h6 {
-    font-size: 8px; }
+    font-size: 14px; }
   p {
-    font-size: 8px; } }
+    font-size: 10px; } }
 
 .l-main-header .nav-container {
   width: 91%;
@@ -108,8 +110,8 @@ p {
 /* version tablette */
 @media screen and (min-width: 720px) {
   .l-main-header img {
-    height: 15px;
-    padding-top: 1px; }
+    height: 22px;
+    padding-top: 1.5px; }
   .l-main-header .nav-container {
     padding-top: 0;
     padding-bottom: 0; }
@@ -126,7 +128,7 @@ p {
       text-decoration: none;
       color: #222222;
       font-weight: bold;
-      font-size: 7px; }
+      font-size: 10px; }
   .nav-container .l-main-header-menu_menu-icon {
     display: none; }
   .about-me-container {
@@ -141,13 +143,28 @@ p {
       width: 45%;
       padding-top: 5rem; }
     .info-isl-picture .isl {
-      font-size: 32px; }
+      font-size: 40px; }
     .info-isl-picture .hero-picture {
       padding-top: 0;
-      margin-left: 3rem; }
+      margin-left: 2rem; }
       .info-isl-picture .hero-picture img {
         width: 145%;
         height: 380px; } }
+
+/* version PC */
+@media screen and (min-width: 900px) {
+  .l-main-header .nav-container {
+    max-width: 950px; }
+    .l-main-header .nav-container li {
+      margin: 0.8rem; }
+  .l-main-header .about-me-container {
+    height: 480px; }
+  .l-main-header .info-isl-picture {
+    max-width: 925px;
+    margin: 0 auto; }
+    .l-main-header .info-isl-picture img {
+      height: 450px;
+      width: 420px; } }
 
 .l-main-footer {
   background-color: #222222;
@@ -194,7 +211,9 @@ p {
     display: flex;
     width: 95%;
     margin: 0 auto;
-    padding: 13px; }
+    padding: 13px;
+    padding-top: 2.2rem;
+    padding-bottom: 2rem; }
     .l-main-footer .row .word-colorlib {
       font-size: 8px; }
   .l-main-footer div {
@@ -208,8 +227,14 @@ p {
     .l-main-footer .follow-media-icons p {
       width: 100px; }
     .l-main-footer .follow-media-icons i {
-      font-size: 7px;
-      margin: 3.5px; } }
+      font-size: 10px;
+      margin: 4.3px; } }
+
+/* version PC */
+@media screen and (min-width: 900px) {
+  .l-main-footer .row {
+    max-width: 970px;
+    padding-left: 0; } }
 
 .btn {
   border: 1px solid #8490ff;
@@ -221,9 +246,15 @@ p {
 
 @media screen and (min-width: 720px) {
   .btn {
-    font-size: 5px;
-    width: 80px;
-    padding: 0.3rem; } }
+    font-size: 9px;
+    width: 120px;
+    padding: 0.6rem; } }
+
+@media screen and (min-width: 900px) {
+  .btn {
+    font-size: 10px;
+    width: 130px;
+    padding: 0.7rem; } }
 
 .about-me-details-txt {
   width: 93%;
@@ -315,10 +346,8 @@ p {
     color: #777777; }
     .about-posts .info-comment img {
       width: 30px; }
-    .about-posts .info-comment .mark {
-      margin-right: 37%; }
     .about-posts .info-comment .icon-heart {
-      padding-left: 7px;
+      padding-left: 4px;
       padding-right: 3px; }
     .about-posts .info-comment .icon-comment {
       padding-left: 9px; }
@@ -347,11 +376,13 @@ p {
     width: 50%;
     margin: 0 auto; }
   .services-content {
-    width: 94%;
+    width: 87%;
     margin: 0 auto;
     display: flex; }
     .services-content i {
-      font-size: 12px; }
+      font-size: 19px; }
+    .services-content div {
+      margin: 2px; }
   .about-number-stats {
     padding: 2.5rem; }
   .contor-txt {
@@ -359,7 +390,9 @@ p {
     width: 80%;
     margin: 0 auto; }
     .contor-txt p:first-child {
-      font-size: 17px; }
+      font-size: 22px; }
+  .about-projects .project-txt h3 {
+    width: 330px; }
   .infos-pictures {
     display: flex;
     width: 97%;
@@ -370,33 +403,59 @@ p {
     width: 60%;
     margin: 0 auto;
     padding-bottom: 1.5rem; }
-  .about-posts .infos-about-post {
+  .infos-about-post {
     display: flex;
-    align-items: center;
     width: 89%;
     margin: 0 auto;
     padding-bottom: 4rem; }
-    .about-posts .infos-about-post .post-picture-txt {
-      margin: 5px;
-      align-items: center; }
-    .about-posts .infos-about-post .post-picture-txt:nth-child(2) {
-      text-align: center; }
-    .about-posts .infos-about-post img {
-      height: 120px; }
-  .about-posts .info-comment img {
+    .infos-about-post .post-picture-txt {
+      margin: 10px; }
+      .infos-about-post .post-picture-txt p {
+        margin-left: 0; }
+    .infos-about-post img {
+      height: 190px; }
+  .info-comment img {
     width: 20px;
     height: 20px; }
-  .about-posts .info-comment .mark {
+  .info-comment .mark {
     margin-right: 20%; }
-  .several-pictures {
-    padding: 0; }
-    .several-pictures .content-pictures {
-      width: 94%;
-      margin: 0 auto;
-      display: flex;
-      padding-left: 0; }
-      .several-pictures .content-pictures .image {
-        display: block; }
-      .several-pictures .content-pictures img {
-        margin: 6.7%;
-        width: 50px; } }
+  .several-pictures .content-pictures {
+    display: flex;
+    margin: 2rem; }
+    .several-pictures .content-pictures .image {
+      display: block; }
+    .several-pictures .content-pictures img {
+      width: 90px; } }
+
+/* version PC */
+@media screen and (min-width: 900px) {
+  .about-me-details-txt {
+    max-width: 950px; }
+    .about-me-details-txt .man-picture {
+      margin-left: 0;
+      margin-right: 0; }
+      .about-me-details-txt .man-picture img {
+        width: 420px; }
+    .about-me-details-txt .info-personal-txt {
+      padding-top: 6rem;
+      padding-left: 7.8rem; }
+      .about-me-details-txt .info-personal-txt p {
+        width: 385px;
+        padding-bottom: 1rem; }
+  .about-services-txt .my-offered-services-txt {
+    max-width: 900px;
+    margin: 0 auto; }
+  .about-services-txt .services-content {
+    max-width: 970px; }
+    .about-services-txt .services-content p {
+      width: 260px; }
+    .about-services-txt .services-content div {
+      margin: 1.5rem; }
+  .about-number-stats .contor-txt {
+    max-width: 920px; }
+  .about-projects {
+    max-width: 970px; }
+  .about-posts div {
+    max-width: 940px; }
+  .several-pictures .content-pictures {
+    max-width: 980px; } }

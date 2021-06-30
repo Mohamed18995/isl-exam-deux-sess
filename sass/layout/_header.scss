@@ -51,8 +51,8 @@
 @media screen and (min-width: 720px) {
     .l-main-header{
         img{
-            height: 15px;
-            padding-top: 1px;
+            height: 22px;
+            padding-top: 1.5px;
         }
         .nav-container{
             padding-top: 0;
@@ -76,7 +76,7 @@
                 text-decoration: none;
                 color: $title;
                 font-weight: bold;
-                font-size: 7px;
+                font-size: 10px;
             }
         }
         .l-main-header-menu_menu-icon{
@@ -97,11 +97,11 @@
             padding-top: 5rem;
         }
         .isl{
-            font-size: 32px;
+            font-size: 40px;
         }
         .hero-picture{
             padding-top: 0;
-            margin-left: 3rem;
+            margin-left: 2rem;
             img{
                 width: 145%;
                 height: 380px;
@@ -109,4 +109,27 @@
         }
     }
     
+}
+
+/* version PC */
+@media screen and (min-width: 900px) {
+    .l-main-header{
+        .nav-container{
+            max-width: 950px;
+            li{
+                margin: 0.8rem;
+            }
+        }
+        .about-me-container{
+            height: 480px;
+        }
+        .info-isl-picture{
+            max-width: 925px;
+            margin: 0 auto;
+            img{
+                height: 450px;
+                width: 420px;
+            }
+        }
+    }
 }
