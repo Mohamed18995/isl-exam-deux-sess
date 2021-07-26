@@ -83,6 +83,24 @@ p {
 .l-main-header .nav-menu {
   display: none; }
 
+.l-main-header .mobile-menu {
+  display: block;
+  position: absolute;
+  background-color: #777777;
+  margin-top: 2rem;
+  left: 25px;
+  right: 25px; }
+  .l-main-header .mobile-menu ul {
+    padding-left: 5px;
+    font-size: 13px;
+    font-weight: 500; }
+  .l-main-header .mobile-menu li {
+    list-style: none;
+    margin: 14px; }
+  .l-main-header .mobile-menu a {
+    text-decoration: none;
+    color: #8490ff; }
+
 .about-me-container {
   background-color: #f6f6fc; }
 
@@ -129,30 +147,38 @@ p {
       color: #222222;
       font-weight: bold;
       font-size: 10px; }
-  .nav-container .l-main-header-menu_menu-icon {
-    display: none; }
-  .about-me-container {
+  .nav-container .mobile-menu {
+    position: relative;
+    background-color: transparent;
+    margin-top: 0; }
+    .nav-container .mobile-menu a {
+      text-decoration: none;
+      color: #222222;
+      font-size: 11px; }
+    .nav-container .mobile-menu .l-main-header-menu_menu-icon {
+      display: none; }
+  .nav-container .about-me-container {
     height: 410px; }
-  .info-isl-picture {
+  .nav-container .info-isl-picture {
     display: flex;
     width: 88%;
     margin: 0 auto;
     padding-bottom: 0;
     margin-bottom: 0; }
-    .info-isl-picture .info-about-isl {
+    .nav-container .info-isl-picture .info-about-isl {
       width: 45%;
       padding-top: 5rem; }
-    .info-isl-picture .isl {
+    .nav-container .info-isl-picture .isl {
       font-size: 40px; }
-    .info-isl-picture .hero-picture {
+    .nav-container .info-isl-picture .hero-picture {
       padding-top: 0;
       margin-left: 2rem; }
-      .info-isl-picture .hero-picture img {
+      .nav-container .info-isl-picture .hero-picture img {
         width: 145%;
-        height: 380px; } }
+        height: 380px; }
+  /* version PC */ }
 
-/* version PC */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 720px) and (min-width: 900px) {
   .l-main-header .nav-container {
     max-width: 950px; }
     .l-main-header .nav-container li {
