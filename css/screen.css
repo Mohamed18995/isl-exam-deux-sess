@@ -11,7 +11,7 @@ h1 {
   color: #222222; }
 
 h2 {
-  font-size: 15px;
+  font-size: 25px;
   font-weight: bold;
   color: #222222; }
 
@@ -46,7 +46,8 @@ h6 {
   margin-top: 1rem; }
 
 p {
-  font-size: 10px; }
+  font-size: 10px;
+  line-height: 20px; }
 
 /*    version  tablette  */
 @media screen and (min-width: 720px) {
@@ -92,7 +93,7 @@ p {
   left: 0;
   background-color: rgba(0, 0, 0, 0.6); }
   .l-main-header .mobile-menu div {
-    width: 70%;
+    width: 75%;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.85);
     top: 0;
@@ -102,13 +103,14 @@ p {
   .l-main-header .mobile-menu ul {
     padding-left: 5px;
     font-size: 13px;
-    font-weight: 500; }
+    font-weight: 500;
+    padding-top: 10px; }
   .l-main-header .mobile-menu li {
     list-style: none;
-    margin: 14px; }
+    margin: 18px; }
   .l-main-header .mobile-menu a {
     text-decoration: none;
-    color: #8490ff; }
+    color: #f6f6fc; }
 
 .about-me-container {
   background-color: #f6f6fc; }
@@ -123,16 +125,16 @@ p {
   .info-isl-picture .isl {
     display: block;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     letter-spacing: 0; }
   .info-isl-picture .hero-picture {
-    width: 30%;
+    width: 65%;
     margin: 0 auto;
     padding-top: 50px; }
     .info-isl-picture .hero-picture img {
-      width: 130px;
-      height: 150px; }
+      width: 315px;
+      height: 370px; }
 
 .hide-menu {
   display: none !important; }
@@ -173,19 +175,15 @@ p {
       text-decoration: none;
       color: #222222;
       font-size: 11px; }
-    .nav-container .mobile-menu .l-main-header-menu_menu-icon {
-      display: none;
-      z-index: 2; }
   .nav-container .about-me-container {
     height: 410px; }
   .nav-container .info-isl-picture {
-    display: flex;
     width: 88%;
     margin: 0 auto;
+    display: flex;
     padding-bottom: 0;
     margin-bottom: 0; }
     .nav-container .info-isl-picture .info-about-isl {
-      width: 45%;
       padding-top: 5rem; }
     .nav-container .info-isl-picture .isl {
       font-size: 40px; }
@@ -246,7 +244,9 @@ p {
       background-color: #8490ff;
       padding: 16px; }
   .l-main-footer .icons {
-    font-size: 9px; }
+    font-size: 9px;
+    margin-bottom: 0;
+    padding-bottom: 0; }
     .l-main-footer .icons i {
       margin: 7px; }
 
@@ -286,7 +286,7 @@ p {
   color: #fff;
   font-size: 12px;
   padding: 0.8rem;
-  width: 170px;
+  width: 50%;
   background-color: #8490ff; }
 
 @media screen and (min-width: 720px) {
@@ -305,12 +305,13 @@ p {
   width: 93%;
   margin: 0 auto; }
   .about-me-details-txt .man-picture {
-    width: 45%;
+    width: 85%;
     margin: 0 auto;
     padding-top: 5rem;
     padding-bottom: 1rem; }
     .about-me-details-txt .man-picture img {
-      width: 200px; }
+      width: 390px;
+      height: 390px; }
 
 .about-services-txt {
   width: 93%;
@@ -323,7 +324,8 @@ p {
 
 .services-content i {
   padding-left: 50%;
-  padding-top: 3rem; }
+  padding-top: 3rem;
+  color: #222222; }
 
 .about-number-stats {
   background-color: #62bdfc;

@@ -17,19 +17,15 @@
     .mobile-menu{
         display: block;
         position: fixed;
-            
-            top:0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-        background-color: rgba(0,0,0,0.6);
-       
-        
-        
+        top:0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: $menu-1;
         div {
-            width: 70%;
+            width: 75%;
             position: fixed;
-            background-color: rgba(0,0,0,0.85);
+            background-color: $menu-2;
             top:0;
             bottom: 0;
             right: 0;
@@ -39,14 +35,15 @@
           padding-left: 5px;
           font-size: 13px;
           font-weight: 500;
+          padding-top: 10px;
         }
         li {
           list-style: none;
-          margin: 14px;
+          margin: 18px;
         }
         a{
           text-decoration: none;
-          color: $Btn1;
+          color: $main;
         }
     }
 }
@@ -64,19 +61,17 @@
     .isl{
         display: block;
         padding-top: 10px;
-        font-size:20px;
+        font-size: 40px;
         font-weight: bold;
         letter-spacing: 0;
     }
     .hero-picture{
-        width: 30%;
+        width: 65%;
         margin: 0 auto;
         padding-top: 50px;
         img{
-            width: 130px;
-            height: 150px;
-            
-            
+            width: 315px;
+            height: 370px;
         }
     }
 }
@@ -135,22 +130,17 @@
                 color: $title;
                 font-size: 11px;
             }
-        .l-main-header-menu_menu-icon{
-            display: none;
-            z-index: 2;
-        }
     }
     .about-me-container{
         height: 410px;
     }
     .info-isl-picture{
-        display: flex;
         width: 88%;
         margin: 0 auto;
+        display: flex;
         padding-bottom: 0;
         margin-bottom: 0;
         .info-about-isl{
-            width: 45%;
             padding-top: 5rem;
         }
         .isl{
