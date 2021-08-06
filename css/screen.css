@@ -35,8 +35,8 @@ h4 {
 
 h5 {
   font-weight: bold;
-  font-size: 18px;
-  width: 90%;
+  font-size: 23px;
+  width: 88%;
   margin-bottom: 0;
   color: #222222; }
 
@@ -63,11 +63,16 @@ p {
   h4 {
     font-size: 14px; }
   h5 {
-    font-size: 14px; }
+    font-size: 12px;
+    width: 100%; }
   h6 {
     font-size: 14px; }
   p {
     font-size: 10px; } }
+
+@media screen and (min-width: 900px) {
+  h5 {
+    font-size: 14.5px; } }
 
 .l-main-header .nav-container {
   width: 91%;
@@ -160,8 +165,6 @@ p {
     .nav-container .nav-menu li {
       list-style: none;
       margin: 0.5rem; }
-    .nav-container .nav-menu a:first-child {
-      color: #62bdfc; }
     .nav-container .nav-menu a {
       text-decoration: none;
       color: #222222;
@@ -413,7 +416,8 @@ p {
     width: 82%;
     margin: 0 auto; }
     .about-me-details-txt .man-picture img {
-      width: 450%; }
+      width: 350%;
+      height: 325px; }
     .about-me-details-txt .info-personal-txt {
       padding-left: 45%;
       padding-top: 5.5rem; }
@@ -658,7 +662,7 @@ p {
   .about-body .details-content {
     display: flex; }
   .about-body .man-picture img {
-    width: 450%; }
+    width: 300%; }
   .about-body .info-personal-txt {
     padding-left: 44%;
     margin: 0; }

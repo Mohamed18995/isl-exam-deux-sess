@@ -34,8 +34,8 @@ h4{
 }
 h5{
   font-weight: bold;
-  font-size: 18px;
-  width: 90%;
+  font-size: 23px;
+  width: 88%;
   margin-bottom: 0;
   color: $title;
 }
@@ -68,7 +68,8 @@ p{
     font-size: 14px;
   }
   h5{
-    font-size: 14px;
+    font-size: 12px;
+    width: 100%;
   }
   h6{
     font-size: 14px;
@@ -76,4 +77,10 @@ p{
   p{
     font-size: 10px;
   }
+}
+@media screen and (min-width: 900px) {
+  h5{
+    font-size: 14.5px;
+  }
+
 }
