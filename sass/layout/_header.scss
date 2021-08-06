@@ -16,11 +16,25 @@
     }
     .mobile-menu{
         display: block;
-        position: absolute;
-        background-color: $txt;
-        margin-top: 2rem;
-        left: 25px;
-        right: 25px;
+        position: fixed;
+            
+            top:0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        background-color: rgba(0,0,0,0.6);
+       
+        
+        
+        div {
+            width: 70%;
+            position: fixed;
+            background-color: rgba(0,0,0,0.85);
+            top:0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
         ul{
           padding-left: 5px;
           font-size: 13px;
@@ -67,6 +81,18 @@
     }
 }
 
+.hide-menu {
+    display: none !important;
+}
+
+.show-close {
+    display: none !important;
+}
+
+.l-main-header-menu_menu-icon{
+    z-index: 2;
+}
+
 /* version tablette */
 
 @media screen and (min-width: 720px) {
@@ -111,6 +137,7 @@
             }
         .l-main-header-menu_menu-icon{
             display: none;
+            z-index: 2;
         }
     }
     .about-me-container{

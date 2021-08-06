@@ -31,9 +31,9 @@
         i{
             position: absolute;
             color: $Couleur3;
-            right: 0;
-            top: 0;
-            bottom: 0;
+            right: -1px;
+            top: -1px;
+            bottom: -1px;
             background-color: $Btn1;
             padding: 16px;
         }

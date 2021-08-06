@@ -227,7 +227,7 @@
     .several-pictures{
         .content-pictures{
             display: flex;
-            margin: 2rem;
+            justify-content: space-around;
             .image{
                 display: block;
             }
@@ -288,8 +288,17 @@
         }
     }
     .several-pictures{
+        padding: 3rem 0;
+        
         .content-pictures{
             max-width: 980px;
+            justify-content: space-around;
+            margin: 0 auto;
+
+            :first-child, :nth-child(2), :nth-child(3) {
+                order: 1;
+            }
+           
         }
     }
 }

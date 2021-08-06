@@ -85,11 +85,20 @@ p {
 
 .l-main-header .mobile-menu {
   display: block;
-  position: absolute;
-  background-color: #777777;
-  margin-top: 2rem;
-  left: 25px;
-  right: 25px; }
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6); }
+  .l-main-header .mobile-menu div {
+    width: 70%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.85);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; }
   .l-main-header .mobile-menu ul {
     padding-left: 5px;
     font-size: 13px;
@@ -125,6 +134,15 @@ p {
       width: 130px;
       height: 150px; }
 
+.hide-menu {
+  display: none !important; }
+
+.show-close {
+  display: none !important; }
+
+.l-main-header-menu_menu-icon {
+  z-index: 2; }
+
 /* version tablette */
 @media screen and (min-width: 720px) {
   .l-main-header img {
@@ -156,7 +174,8 @@ p {
       color: #222222;
       font-size: 11px; }
     .nav-container .mobile-menu .l-main-header-menu_menu-icon {
-      display: none; }
+      display: none;
+      z-index: 2; }
   .nav-container .about-me-container {
     height: 410px; }
   .nav-container .info-isl-picture {
@@ -221,9 +240,9 @@ p {
     .l-main-footer .login-form i {
       position: absolute;
       color: #fff;
-      right: 0;
-      top: 0;
-      bottom: 0;
+      right: -1px;
+      top: -1px;
+      bottom: -1px;
       background-color: #8490ff;
       padding: 16px; }
   .l-main-footer .icons {
@@ -447,7 +466,7 @@ p {
     margin-right: 20%; }
   .several-pictures .content-pictures {
     display: flex;
-    margin: 2rem; }
+    justify-content: space-around; }
     .several-pictures .content-pictures .image {
       display: block; }
     .several-pictures .content-pictures img {
@@ -483,8 +502,14 @@ p {
     max-width: 970px; }
   .about-posts div {
     max-width: 940px; }
-  .several-pictures .content-pictures {
-    max-width: 980px; } }
+  .several-pictures {
+    padding: 3rem 0; }
+    .several-pictures .content-pictures {
+      max-width: 980px;
+      justify-content: space-around;
+      margin: 0 auto; }
+      .several-pictures .content-pictures :first-child, .several-pictures .content-pictures :nth-child(2), .several-pictures .content-pictures :nth-child(3) {
+        order: 1; } }
 
 /*   header   */
 .about-body .about-me {
