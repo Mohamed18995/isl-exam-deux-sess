@@ -152,6 +152,8 @@ p {
 
 /* version tablette */
 @media screen and (min-width: 720px) {
+  .l-main-header-menu_menu-icon {
+    display: none; }
   .l-main-header img {
     height: 22px;
     padding-top: 1.5px; }
@@ -206,6 +208,7 @@ p {
   .l-main-header .about-me-container {
     height: 480px; }
   .l-main-header .info-isl-picture {
+    display: flex;
     max-width: 925px;
     margin: 0 auto; }
     .l-main-header .info-isl-picture img {
