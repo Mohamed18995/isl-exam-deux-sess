@@ -118,7 +118,10 @@ p {
     color: #f6f6fc; }
 
 .nav li:nth-child(1) a {
-  color: blue; }
+  color: #8490ff; }
+
+.about-nav li:nth-child(2) a {
+  color: #8490ff; }
 
 .about-me-container {
   background-color: #f6f6fc; }
@@ -141,8 +144,8 @@ p {
     margin: 0 auto;
     padding-top: 50px; }
     .info-isl-picture .hero-picture img {
-      width: 315px;
-      height: 370px; }
+      width: 100%;
+      height: 270px; }
 
 .hide-menu {
   display: none; }
@@ -169,10 +172,10 @@ p {
       padding-top: 0;
       margin-left: 2rem; }
       .info-isl-picture .hero-picture img {
-        width: 145%;
+        width: 100%;
         height: 380px; }
   .nav li:nth-child(1) a {
-    color: blue; }
+    color: #8490ff; }
   .l-main-header-menu_menu-icon {
     display: none; }
   .l-main-header img {
@@ -321,8 +324,8 @@ p {
     padding-top: 5rem;
     padding-bottom: 1rem; }
     .about-me-details-txt .man-picture img {
-      width: 390px;
-      height: 390px; }
+      width: 100%;
+      height: 260px; }
 
 .about-services-txt {
   width: 93%;
@@ -409,6 +412,10 @@ p {
       padding-right: 3px; }
     .about-posts .info-comment .icon-comment {
       padding-left: 9px; }
+    .about-posts .info-comment .mark {
+      display: flex;
+      flex: 1;
+      margin-left: 10px; }
 
 .several-pictures {
   background-color: #62bdfc;
@@ -476,8 +483,6 @@ p {
   .info-comment img {
     width: 20px;
     height: 20px; }
-  .info-comment .mark {
-    margin-right: 20%; }
   .several-pictures .content-pictures {
     display: flex;
     justify-content: space-around; }

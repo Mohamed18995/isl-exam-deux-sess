@@ -7,8 +7,8 @@
         padding-top: 5rem;
         padding-bottom: 1rem;
         img{
-            width: 390px;
-            height: 390px;
+            width: 100%;
+            height: 260px;
         }
     }
 }
@@ -119,6 +119,11 @@
         .icon-comment{
             padding-left: 9px;
         }
+        .mark{
+            display: flex;
+            flex: 1;
+            margin-left: 10px;
+        }
         
     }
 }
@@ -223,9 +228,7 @@
             width: 20px;
             height: 20px;
         }
-        .mark{
-            margin-right: 20%;
-        }
+        
     }
     .several-pictures{
         .content-pictures{

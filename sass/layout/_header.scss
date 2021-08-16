@@ -52,7 +52,11 @@
     }
 }
 .nav li:nth-child(1) a{
-    color: blue;
+    color: $bannerBg1;
+}
+
+.about-nav li:nth-child(2) a{
+    color: $bannerBg1;
 }
 .about-me-container{
     background-color: $main;
@@ -77,8 +81,8 @@
         margin: 0 auto;
         padding-top: 50px;
         img{
-            width: 315px;
-            height: 370px;
+            width: 100%;
+            height: 270px;
         }
     }
 }
@@ -118,13 +122,13 @@
             padding-top: 0;
             margin-left: 2rem;
             img{
-                width: 145%;
+                width: 100%;
                 height: 380px;
             }
         }
     }
     .nav li:nth-child(1) a{
-        color: blue;
+        color: $bannerBg1;
     }
     .l-main-header-menu_menu-icon{
         display: none;
