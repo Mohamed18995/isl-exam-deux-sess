@@ -331,7 +331,7 @@ p {
       width: 100%;
       height: 260px; }
   .about-me-details-txt .word-about-me {
-    font-size: 18px; }
+    font-size: 16px; }
 
 .about-services-txt {
   width: 93%;
@@ -444,7 +444,7 @@ p {
       padding-top: 5.5rem; }
       .about-me-details-txt .info-personal-txt p {
         padding-bottom: 0.5rem;
-        padding-top: 0; }
+        padding-top: 3px; }
       .about-me-details-txt .info-personal-txt .word-about-me {
         font-size: 10px;
         padding-bottom: 0; }
