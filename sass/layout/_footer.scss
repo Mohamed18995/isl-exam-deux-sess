@@ -16,7 +16,7 @@
         }
     }
     .login-form{
-        padding: 0.6rem;
+        padding: 0.5rem;
         position: relative;
         border: 1px solid transparent;
         background-color: $Couleur3;
@@ -25,9 +25,11 @@
         margin-top: 1.5rem;
         margin-bottom: 0;
         input{
+
             border: transparent;
             color: $Btn2;
         }
+        
         i{
             position: absolute;
             color: $Couleur3;

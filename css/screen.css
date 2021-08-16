@@ -117,6 +117,9 @@ p {
     text-decoration: none;
     color: #f6f6fc; }
 
+.nav li:nth-child(1) a {
+  color: blue; }
+
 .about-me-container {
   background-color: #f6f6fc; }
 
@@ -142,16 +145,34 @@ p {
       height: 370px; }
 
 .hide-menu {
-  display: none !important; }
+  display: none; }
 
 .show-close {
-  display: none !important; }
+  display: none; }
 
 .l-main-header-menu_menu-icon {
   z-index: 2; }
 
 /* version tablette */
 @media screen and (min-width: 720px) {
+  .info-isl-picture {
+    width: 88%;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 0;
+    margin-bottom: 0; }
+    .info-isl-picture .info-about-isl {
+      padding-top: 5rem; }
+    .info-isl-picture .isl {
+      font-size: 40px; }
+    .info-isl-picture .hero-picture {
+      padding-top: 0;
+      margin-left: 2rem; }
+      .info-isl-picture .hero-picture img {
+        width: 145%;
+        height: 380px; }
+  .nav li:nth-child(1) a {
+    color: blue; }
   .l-main-header-menu_menu-icon {
     display: none; }
   .l-main-header img {
@@ -182,22 +203,6 @@ p {
       font-size: 11px; }
   .nav-container .about-me-container {
     height: 410px; }
-  .nav-container .info-isl-picture {
-    width: 88%;
-    margin: 0 auto;
-    display: flex;
-    padding-bottom: 0;
-    margin-bottom: 0; }
-    .nav-container .info-isl-picture .info-about-isl {
-      padding-top: 5rem; }
-    .nav-container .info-isl-picture .isl {
-      font-size: 40px; }
-    .nav-container .info-isl-picture .hero-picture {
-      padding-top: 0;
-      margin-left: 2rem; }
-      .nav-container .info-isl-picture .hero-picture img {
-        width: 145%;
-        height: 380px; }
   /* version PC */ }
 
 @media screen and (min-width: 720px) and (min-width: 900px) {
@@ -230,7 +235,7 @@ p {
       font-size: 10px;
       font-weight: bold; }
   .l-main-footer .login-form {
-    padding: 0.6rem;
+    padding: 0.5rem;
     position: relative;
     border: 1px solid transparent;
     background-color: #fff;
@@ -541,7 +546,7 @@ p {
   .about-body .about-me .about-content {
     display: flex;
     align-items: center;
-    margin-left: 37.5%;
+    justify-content: center;
     padding-bottom: 2rem; }
 
 /*     main   */
@@ -646,8 +651,6 @@ p {
   /*    header   */
   .about-body .about-me {
     padding: 1rem; }
-    .about-body .about-me .about-content {
-      margin-left: 42.5%; }
   /*    main   */
   .about-body h2 {
     padding-bottom: 4px;

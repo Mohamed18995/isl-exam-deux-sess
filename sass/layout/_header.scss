@@ -48,7 +48,11 @@
           text-decoration: none;
           color: $main;
         }
+        
     }
+}
+.nav li:nth-child(1) a{
+    color: blue;
 }
 .about-me-container{
     background-color: $main;
@@ -80,11 +84,11 @@
 }
 
 .hide-menu {
-    display: none !important;
+    display: none ;
 }
 
 .show-close {
-    display: none !important;
+    display: none;
 }
 
 .l-main-header-menu_menu-icon{
@@ -93,7 +97,35 @@
 
 /* version tablette */
 
+
 @media screen and (min-width: 720px) {
+
+
+    .info-isl-picture{
+        width: 88%;
+        display: flex;
+        margin: 0 auto;
+
+        padding-bottom: 0;
+        margin-bottom: 0;
+        .info-about-isl{
+            padding-top: 5rem;
+        }
+        .isl{
+            font-size: 40px;
+        }
+        .hero-picture{
+            padding-top: 0;
+            margin-left: 2rem;
+            img{
+                width: 145%;
+                height: 380px;
+            }
+        }
+    }
+    .nav li:nth-child(1) a{
+        color: blue;
+    }
     .l-main-header-menu_menu-icon{
         display: none;
     }
@@ -136,27 +168,6 @@
     }
     .about-me-container{
         height: 410px;
-    }
-    .info-isl-picture{
-        width: 88%;
-        margin: 0 auto;
-        display: flex;
-        padding-bottom: 0;
-        margin-bottom: 0;
-        .info-about-isl{
-            padding-top: 5rem;
-        }
-        .isl{
-            font-size: 40px;
-        }
-        .hero-picture{
-            padding-top: 0;
-            margin-left: 2rem;
-            img{
-                width: 145%;
-                height: 380px;
-            }
-        }
     }
     
 }

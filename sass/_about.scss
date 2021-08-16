@@ -23,7 +23,7 @@
         .about-content{
             display: flex;
             align-items: center;
-            margin-left: 37.5%;
+            justify-content: center;
             padding-bottom: 2rem;
         }
     }
@@ -160,9 +160,6 @@
     .about-body{
         .about-me{
             padding: 1rem;
-            .about-content{
-                margin-left: 42.5%;
-            }
         }
     }
 
