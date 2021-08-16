@@ -7,7 +7,7 @@ body {
   margin: 0; }
 
 h1 {
-  font-size: 13px;
+  font-size: 18px;
   color: #222222; }
 
 h2 {
@@ -18,7 +18,7 @@ h2 {
 h3 {
   font-weight: 30px;
   font-size: 27px;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   text-align: center;
   padding-top: 5rem;
@@ -54,7 +54,7 @@ p {
   h1 {
     font-size: 9px; }
   h2 {
-    padding-bottom: 1rem;
+    margin-bottom: 20px;
     font-size: 24px;
     font-weight: bold; }
   h3 {
@@ -84,7 +84,8 @@ p {
   padding-bottom: 15px; }
 
 .l-main-header img {
-  height: 23px; }
+  height: 35px;
+  width: 170px; }
 
 .l-main-header .nav-menu {
   display: none; }
@@ -145,7 +146,7 @@ p {
     padding-top: 50px; }
     .info-isl-picture .hero-picture img {
       width: 100%;
-      height: 270px; }
+      height: 280px; }
 
 .hide-menu {
   display: none; }
@@ -158,6 +159,8 @@ p {
 
 /* version tablette */
 @media screen and (min-width: 720px) {
+  .l-main-header img {
+    width: 100px; }
   .info-isl-picture {
     width: 88%;
     display: flex;
@@ -172,8 +175,9 @@ p {
       padding-top: 0;
       margin-left: 2rem; }
       .info-isl-picture .hero-picture img {
-        width: 100%;
-        height: 380px; }
+        width: 350px;
+        height: 500px;
+        padding-right: 40px; }
   .nav li:nth-child(1) a {
     color: #8490ff; }
   .l-main-header-menu_menu-icon {
@@ -326,6 +330,8 @@ p {
     .about-me-details-txt .man-picture img {
       width: 100%;
       height: 260px; }
+  .about-me-details-txt .word-about-me {
+    font-size: 18px; }
 
 .about-services-txt {
   width: 93%;
@@ -343,12 +349,12 @@ p {
 
 .about-number-stats {
   background-color: #62bdfc;
-  padding-top: 4rem;
-  padding-bottom: 5rem; }
+  padding-top: 3rem;
+  padding-bottom: 4rem; }
   .about-number-stats .details {
     color: #fff;
     width: 30%;
-    margin: 0 auto;
+    margin: 50px auto;
     text-align: center; }
   .about-number-stats p:first-child {
     font-size: 22px;
@@ -437,7 +443,11 @@ p {
       padding-left: 45%;
       padding-top: 5.5rem; }
       .about-me-details-txt .info-personal-txt p {
-        padding-bottom: 0.5rem; }
+        padding-bottom: 0.5rem;
+        padding-top: 0; }
+      .about-me-details-txt .info-personal-txt .word-about-me {
+        font-size: 10px;
+        padding-bottom: 0; }
   .my-offered-services-txt p {
     width: 50%;
     margin: 0 auto; }

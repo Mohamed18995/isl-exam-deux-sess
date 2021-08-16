@@ -11,6 +11,9 @@
             height: 260px;
         }
     }
+    .word-about-me{
+        font-size: 18px;
+    }
 }
 .about-services-txt{
     width: 93%;
@@ -31,12 +34,12 @@
 }
 .about-number-stats{
     background-color: $bannerBg2;
-    padding-top: 4rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
     .details{
         color: $Couleur3;
         width: 30%;
-        margin: 0 auto;
+        margin: 50px auto;
         text-align: center;
     }
     p:first-child{
@@ -154,6 +157,11 @@
             padding-top: 5.5rem;
             p{
                 padding-bottom: 0.5rem;
+                padding-top: 0;
+            }
+            .word-about-me{
+                font-size: 10px;
+                padding-bottom: 0;
             }
         }
     }
