@@ -257,32 +257,34 @@ p {
       color: #8490ff;
       font-size: 10px;
       font-weight: bold; }
-  .l-main-footer .login-form {
-    padding: 0.5rem;
-    position: relative;
-    border: 1px solid transparent;
-    background-color: #fff;
-    color: #777777;
-    bottom: 12px;
-    margin-top: 1.5rem;
-    margin-bottom: 0; }
-    .l-main-footer .login-form input {
-      border: transparent;
-      color: #62bdfc; }
-    .l-main-footer .login-form i {
-      position: absolute;
-      color: #fff;
-      right: -1px;
-      top: -1px;
-      bottom: -1px;
-      background-color: #8490ff;
-      padding: 16px; }
-  .l-main-footer .icons {
-    font-size: 9px;
-    margin-bottom: 0;
-    padding-bottom: 0; }
-    .l-main-footer .icons i {
-      margin: 7px; }
+
+.l-main-footer .login-form {
+  padding: 0.5rem;
+  position: relative;
+  border: 1px solid transparent;
+  background-color: #fff;
+  color: #777777;
+  bottom: 12px;
+  margin-top: 1.5rem;
+  margin-bottom: 0; }
+  .l-main-footer .login-form input {
+    border: transparent;
+    color: #62bdfc; }
+  .l-main-footer .login-form i {
+    position: absolute;
+    color: #fff;
+    right: -1px;
+    top: -1px;
+    bottom: -1px;
+    background-color: #8490ff;
+    padding: 16px; }
+
+.l-main-footer .icons {
+  font-size: 9px;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  .l-main-footer .icons i {
+    margin: 7px; }
 
 /*    version  tablette  */
 @media screen and (min-width: 720px) {
