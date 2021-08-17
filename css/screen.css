@@ -565,13 +565,16 @@ p {
         order: 1; } }
 
 /*   header   */
+.about-body .l-main-header-logo img {
+  height: 30px; }
+
 .about-body .about-me {
   background-color: #62bdfc;
-  padding: 4rem;
+  padding: 3.5rem;
   color: #fff; }
   .about-body .about-me h1 {
     color: #fff;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 0;
@@ -589,17 +592,21 @@ p {
     padding-bottom: 2rem; }
 
 /*     main   */
+.about-body .man-picture img {
+  height: 200px; }
+
 .about-body .info-personal-txt {
   margin-bottom: 2.8rem; }
   .about-body .info-personal-txt h2 {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    font-size: 12px; }
+    font-size: 15px; }
   .about-body .info-personal-txt h3 {
     text-align: start;
     margin-left: 0;
-    font-size: 18px;
-    padding-top: 1.8rem; }
+    font-size: 20px;
+    padding-top: 0;
+    padding-bottom: 1.5rem; }
+  .about-body .info-personal-txt .btn {
+    margin-top: 1rem; }
 
 .about-body .about-experiences {
   margin-bottom: 7rem; }
@@ -609,7 +616,7 @@ p {
     margin-bottom: 0;
     text-align: start;
     margin-left: 0;
-    font-size: 20px; }
+    font-size: 18.5px; }
   .about-body .about-experiences p {
     font-size: 16px;
     font-weight: 400;
@@ -652,17 +659,19 @@ p {
     border-radius: 5px; }
 
 .about-body .about-clients-comments {
-  background-color: #f6f6fc; }
+  background-color: #f6f6fc;
+  margin-bottom: 5rem; }
 
-.about-body .clients-feedback-txt h4 {
+.about-body .clients-feedback-txt {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
   width: 95%;
-  margin: 0 auto;
-  padding-left: 0;
-  font-size: 35px; }
-
-.about-body .clients-feedback-txt p {
-  text-align: center;
-  padding-bottom: 4rem; }
+  margin: 0 auto; }
+  .about-body .clients-feedback-txt h4 {
+    padding-left: 0;
+    font-size: 35px; }
+  .about-body .clients-feedback-txt p {
+    text-align: center; }
 
 .about-body .comment-picture {
   background-color: #fff;
@@ -688,31 +697,40 @@ p {
 /* version tablette */
 @media screen and (min-width: 720px) {
   /*    header   */
+  .about-body .l-main-header-logo img {
+    height: 20px; }
   .about-body .about-me {
     padding: 1rem; }
   /*    main   */
   .about-body h2 {
-    padding-bottom: 4px;
+    padding-bottom: 0;
     font-size: 10px; }
-  .about-body h3 {
-    margin: 0;
-    width: 100%;
-    font-size: 25px; }
   .about-body h4 {
     margin: 0; }
   .about-body .about-me-details-txt {
     display: block;
     width: 88.5%;
     margin: 0 auto; }
+    .about-body .about-me-details-txt .btn {
+      width: 110px;
+      margin-top: 10px; }
   .about-body .details-content {
     display: flex; }
   .about-body .man-picture img {
-    width: 300%; }
+    width: 330px;
+    height: 260px; }
   .about-body .info-personal-txt {
-    padding-left: 44%;
+    padding-left: 13;
     margin: 0; }
+    .about-body .info-personal-txt h3 {
+      font-size: 20px;
+      padding-bottom: 6px;
+      margin: 0; }
     .about-body .info-personal-txt p {
-      padding-bottom: 14px; }
+      margin-bottom: 0;
+      margin-top: 0; }
+  .about-body .about-experiences h3 {
+    font-size: 14px; }
   .about-body .expers-container {
     display: flex;
     justify-content: space-between; }
@@ -756,13 +774,23 @@ p {
   .about-body .about-me-details-txt {
     max-width: 910px; }
     .about-body .about-me-details-txt h3 {
-      font-size: 30px; }
+      font-size: 28px; }
+    .about-body .about-me-details-txt .man-picture {
+      padding-left: 0;
+      padding-right: 0; }
     .about-body .about-me-details-txt img {
-      width: 430px; }
+      width: 440px;
+      height: 288px; }
   .about-body .info-personal-txt {
-    padding-left: 9.5rem;
-    width: 400px; }
+    margin-left: 0; }
     .about-body .info-personal-txt p {
       width: 350px; }
+    .about-body .info-personal-txt .btn {
+      width: 150px;
+      margin-top: 1.5rem; }
   .about-body .infos-comments {
-    max-width: 945px; } }
+    max-width: 945px; }
+  .about-body .content-pictures :nth-child(4), .about-body .content-pictures :nth-child(5) {
+    order: 1; }
+  .about-body .content-pictures :first-child {
+    order: 5; } }

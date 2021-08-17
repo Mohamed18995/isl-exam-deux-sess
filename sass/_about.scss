@@ -1,12 +1,17 @@
 /*   header   */
 .about-body{
+    .l-main-header-logo{
+        img{
+            height: 30px;
+        }
+    }
     .about-me{
         background-color: $bannerBg2;
-        padding: 4rem;
+        padding: 3.5rem;
         color: $Couleur3;
         h1{
             color: $Couleur3;
-            font-size: 40px;
+            font-size: 38px;
             font-weight: bold;
             text-align: center;
             padding-bottom: 0;
@@ -31,18 +36,25 @@
 
 /*     main   */
 .about-body{
+    .man-picture{
+        img{
+            height: 200px;
+        }
+    }
     .info-personal-txt{
         margin-bottom: 2.8rem;
         h2{
-            padding-bottom: 0;
-            margin-bottom: 0;
-            font-size: 12px;
+            font-size: 15px;
         }
         h3{
             text-align: start;
             margin-left: 0;
-            font-size: 18px;
-            padding-top: 1.8rem;
+            font-size: 20px;
+            padding-top: 0;
+            padding-bottom: 1.5rem;
+        }
+        .btn{
+            margin-top: 1rem;
         }
     }
     .about-experiences{
@@ -53,7 +65,7 @@
             margin-bottom: 0;
             text-align: start;
             margin-left: 0;
-            font-size: 20px;
+            font-size: 18.5px;
         }
         p{
             font-size: 16px;
@@ -113,17 +125,19 @@
 .about-body{
     .about-clients-comments{
         background-color: $main;
+        margin-bottom: 5rem;
     }
     .clients-feedback-txt{
+        padding-top: 5rem;
+        padding-bottom: 4rem;
+        width: 95%;
+        margin: 0 auto;
         h4{
-            width: 95%;
-            margin: 0 auto;
             padding-left: 0;
             font-size: 35px;
         }
         p{
             text-align: center;
-            padding-bottom: 4rem;
         }
     }
     .comment-picture{
@@ -158,6 +172,11 @@
 @media screen and (min-width: 720px) {
     /*    header   */
     .about-body{
+        .l-main-header-logo{
+            img{
+                height: 20px;
+            }
+        }
         .about-me{
             padding: 1rem;
         }
@@ -166,13 +185,8 @@
     /*    main   */
     .about-body{
         h2{
-            padding-bottom: 4px;
+            padding-bottom:0;
             font-size: 10px;
-        }
-        h3{
-            margin: 0;
-            width: 100%;
-            font-size: 25px;
         }
         h4{
             margin: 0;
@@ -181,24 +195,40 @@
             display: block;
             width: 88.5%;
             margin: 0 auto;
+            .btn{
+                width: 110px;
+                margin-top: 10px;
+            }
         }
         .details-content{
             display: flex;
         }
         .man-picture{
             img{
-                width: 300%;
+                width: 330px;
+                height: 260px;
             }
         }
         .info-personal-txt{
-            padding-left:44%;
+            padding-left: 13;
             margin: 0;
+            h3{
+                font-size: 20px;
+                padding-bottom: 6px;
+                margin: 0;
+            }
             p{
-                padding-bottom: 14px;
+                margin-bottom: 0;
+                margin-top: 0;
             }
         }
     }
     .about-body{
+        .about-experiences{
+            h3{
+                font-size: 14px;
+            }
+        }
         .expers-container{
             display: flex;
             justify-content: space-between;
@@ -219,6 +249,8 @@
                 margin: 0;
             }
         }
+    }
+    .about-body{
         .comment-picture:nth-child(2){
             display: block;
             display: flex;
@@ -255,25 +287,40 @@
 @media screen and (min-width: 900px) {
     /*    main   */
     .about-body{
-
         .about-me-details-txt{
             max-width:910px ;
             h3{
-                font-size: 30px;
+                font-size: 28px;
+            }
+            .man-picture{
+                padding-left: 0;
+                padding-right: 0;
             }
             img{
-                width: 430px;
+                width: 440px;
+                height: 288px;
             }
         }
         .info-personal-txt{
-            padding-left: 9.5rem;
-            width: 400px;
+            margin-left: 0;
             p{
                 width: 350px;
+            }
+            .btn{
+                width: 150px;
+                margin-top: 1.5rem;
             }
         }
         .infos-comments{
             max-width: 945px;
+        }
+        .content-pictures{
+            :nth-child(4), :nth-child(5) {
+                order: 1;
+            }
+            :first-child{
+                order: 5;
+            }
         }
         
     }
