@@ -3,13 +3,13 @@
     color: $Couleur3;
     font-size: 12px;
     padding:0.8rem;
-    width: 50%;
+    width: 165px;
     background-color: $Btn1;
 }
 @media screen and (min-width: 720px) {
    .btn{
-        font-size: 9px;
-        width: 120px;
+        font-size: 8px;
+        width: 100px;
         padding: 0.6rem;
     }
 }

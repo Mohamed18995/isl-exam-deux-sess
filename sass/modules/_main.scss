@@ -8,11 +8,14 @@
         padding-bottom: 1rem;
         img{
             width: 100%;
-            height: 260px;
+            height: 250px;
         }
     }
     .word-about-me{
-        font-size: 16px;
+        font-size: 15px;
+    }
+    .btn{
+        width: 180px;
     }
 }
 .about-services-txt{
@@ -38,7 +41,7 @@
     padding-bottom: 4rem;
     .details{
         color: $Couleur3;
-        width: 30%;
+        width: 40%;
         margin: 50px auto;
         text-align: center;
     }
@@ -48,7 +51,7 @@
         margin-bottom: 0;
     }
     p{
-        margin-top: 0;
+        margin-top: 7px;
     }
 }
 .about-projects{
@@ -57,12 +60,10 @@
     .project-txt{
         text-align: center;
         h3{
-            width: 250px;
             font-size: bold;
+            padding-top: 3rem;
         }
         p{
-            width: 70%;
-            margin: 0 auto;
             padding-bottom: 5rem;
         }
     }
@@ -75,6 +76,8 @@
     }
     p{
         text-align: center;
+        padding-top: 0;
+        margin-top: 0;
     }
 }
 .about-posts{
@@ -144,30 +147,34 @@
 @media screen and (min-width: 720px) {
     .about-me-details-txt{
         display: flex;
-        width: 82%;
+        width: 90%;
         margin: 0 auto;
         .man-picture{
             img{
-                width: 350%;
-                height: 325px;
+                width: 310px;
+                height: 260px;
             }
         }
         .info-personal-txt{
-            padding-left:45%;
+            padding-left: 12%;
             padding-top: 5.5rem;
             p{
-                padding-bottom: 0.5rem;
-                padding-top: 3px;
+                width: 95%;
+                padding-bottom: 0;
+                padding-top: 0;
             }
             .word-about-me{
                 font-size: 10px;
                 padding-bottom: 0;
             }
+            .btn{
+                width: 118px;
+            }
         }
     }
     .my-offered-services-txt{
         p{
-            width: 50%;
+            width: 65%;
             margin: 0 auto;
         }
     }
@@ -184,7 +191,7 @@
 
     }
     .about-number-stats{
-        padding: 2.5rem;
+        padding: 0.5rem;
     }
     .contor-txt{
         display: flex;
@@ -192,13 +199,6 @@
         margin: 0 auto;
         p:first-child{
             font-size: 22px;
-        }
-    }
-    .about-projects{
-        .project-txt{
-            h3{
-                width: 330px;
-            }
         }
     }
     .infos-pictures{
@@ -210,17 +210,19 @@
         }
     }
     .latest-post-txt{
+        padding-top: 3rem;
         p{
-            width: 60%;
+            width: 70%;
             margin: 0 auto;
-            padding-bottom: 1.5rem;
+            padding-bottom:5px;
+            padding-top: 10px;
         }
     }
     .infos-about-post{
         display: flex;
         width: 89%;
         margin: 0 auto;
-        padding-bottom: 4rem;
+        padding-bottom: 2rem;
         .post-picture-txt{
             margin: 10px;
             p{
@@ -228,7 +230,7 @@
             }
         }
         img{
-            height: 190px;
+            height: 140px;
         }
     }
     .info-comment{
@@ -258,18 +260,21 @@
     .about-me-details-txt{
         max-width: 950px;
         .man-picture{
-            margin-left: 0;
-            margin-right: 0;
+            padding-left: 40px;
             img{
-                width: 420px;
+                width: 400px;
+                height: 266px;
             }
         }
         .info-personal-txt{
             padding-top: 6rem;
-            padding-left: 7.8rem;
             p{
-                width: 385px;
-                padding-bottom: 1rem;
+                width: 340px;
+                padding-bottom: 0;
+                padding-top: 0;
+            }
+            .btn{
+                width: 150px;
             }
         }
     }

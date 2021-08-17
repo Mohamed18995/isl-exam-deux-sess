@@ -7,22 +7,21 @@ body {
   margin: 0; }
 
 h1 {
-  font-size: 18px;
+  font-size: 14px;
   color: #222222; }
 
 h2 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   color: #222222; }
 
 h3 {
   font-weight: 30px;
-  font-size: 27px;
-  width: 60%;
-  margin: 0 auto;
+  font-size: 32px;
+  margin-bottom: 0;
   text-align: center;
   padding-top: 5rem;
-  padding-bottom: 5px;
+  padding-bottom: 0;
   color: #222222; }
 
 h4 {
@@ -30,13 +29,14 @@ h4 {
   font-weight: bold;
   text-align: center;
   padding-left: 6%;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  margin-top: 15px;
   color: #222222; }
 
 h5 {
   font-weight: bold;
-  font-size: 23px;
-  width: 88%;
+  font-size: 18px;
+  width: 100%;
   margin-bottom: 0;
   color: #222222; }
 
@@ -46,7 +46,7 @@ h6 {
   margin-top: 1rem; }
 
 p {
-  font-size: 10px;
+  font-size: 13px;
   line-height: 20px; }
 
 /*    version  tablette  */
@@ -54,14 +54,16 @@ p {
   h1 {
     font-size: 9px; }
   h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
+    margin-bottom: 8px;
+    margin-top: 6px;
+    font-size: 22px;
     font-weight: bold; }
   h3 {
-    font-size: 22px;
+    font-size: 25px;
     padding-top: 3rem; }
   h4 {
-    font-size: 14px; }
+    font-size: 14px;
+    margin-bottom: 0; }
   h5 {
     font-size: 12px;
     width: 100%; }
@@ -71,6 +73,12 @@ p {
     font-size: 10px; } }
 
 @media screen and (min-width: 900px) {
+  h2 {
+    font-size: 28px; }
+  h3 {
+    font-size: 30px; }
+  h4 {
+    padding-bottom: 0; }
   h5 {
     font-size: 14.5px; } }
 
@@ -85,7 +93,7 @@ p {
 
 .l-main-header img {
   height: 35px;
-  width: 170px; }
+  width: 135px; }
 
 .l-main-header .nav-menu {
   display: none; }
@@ -99,7 +107,7 @@ p {
   left: 0;
   background-color: rgba(0, 0, 0, 0.6); }
   .l-main-header .mobile-menu div {
-    width: 75%;
+    width: 72%;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.85);
     top: 0;
@@ -137,7 +145,7 @@ p {
   .info-isl-picture .isl {
     display: block;
     padding-top: 10px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     letter-spacing: 0; }
   .info-isl-picture .hero-picture {
@@ -146,7 +154,7 @@ p {
     padding-top: 50px; }
     .info-isl-picture .hero-picture img {
       width: 100%;
-      height: 280px; }
+      height: 270px; }
 
 .hide-menu {
   display: none; }
@@ -156,28 +164,32 @@ p {
 
 .l-main-header-menu_menu-icon {
   z-index: 2; }
+  .l-main-header-menu_menu-icon .fa-bars {
+    font-size: 19px; }
 
 /* version tablette */
 @media screen and (min-width: 720px) {
   .l-main-header img {
-    width: 100px; }
+    width: 85px; }
   .info-isl-picture {
-    width: 88%;
+    width: 90%;
     display: flex;
     margin: 0 auto;
     padding-bottom: 0;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    height: 390px; }
     .info-isl-picture .info-about-isl {
-      padding-top: 5rem; }
+      padding-top: 3.6rem; }
     .info-isl-picture .isl {
-      font-size: 40px; }
+      font-size: 35px;
+      padding-top: 2px; }
     .info-isl-picture .hero-picture {
       padding-top: 0;
-      margin-left: 2rem; }
+      margin-left: 2rem;
+      margin-right: 3.3rem; }
       .info-isl-picture .hero-picture img {
-        width: 350px;
-        height: 500px;
-        padding-right: 40px; }
+        width: 300px;
+        height: 390px; }
   .nav li:nth-child(1) a {
     color: #8490ff; }
   .l-main-header-menu_menu-icon {
@@ -194,12 +206,12 @@ p {
       display: flex; }
     .nav-container .nav-menu li {
       list-style: none;
-      margin: 0.5rem; }
+      margin: 7px; }
     .nav-container .nav-menu a {
       text-decoration: none;
       color: #222222;
       font-weight: bold;
-      font-size: 10px; }
+      font-size: 9px; }
   .nav-container .mobile-menu {
     position: relative;
     background-color: transparent;
@@ -223,9 +235,13 @@ p {
     display: flex;
     max-width: 925px;
     margin: 0 auto; }
+    .l-main-header .info-isl-picture .info-about-isl {
+      padding-top: 5rem; }
+    .l-main-header .info-isl-picture .isl {
+      font-size: 45px; }
     .l-main-header .info-isl-picture img {
       height: 450px;
-      width: 420px; } }
+      width: 400px; } }
 
 .l-main-footer {
   background-color: #222222;
@@ -304,13 +320,13 @@ p {
   color: #fff;
   font-size: 12px;
   padding: 0.8rem;
-  width: 50%;
+  width: 165px;
   background-color: #8490ff; }
 
 @media screen and (min-width: 720px) {
   .btn {
-    font-size: 9px;
-    width: 120px;
+    font-size: 8px;
+    width: 100px;
     padding: 0.6rem; } }
 
 @media screen and (min-width: 900px) {
@@ -329,9 +345,11 @@ p {
     padding-bottom: 1rem; }
     .about-me-details-txt .man-picture img {
       width: 100%;
-      height: 260px; }
+      height: 250px; }
   .about-me-details-txt .word-about-me {
-    font-size: 16px; }
+    font-size: 15px; }
+  .about-me-details-txt .btn {
+    width: 180px; }
 
 .about-services-txt {
   width: 93%;
@@ -353,7 +371,7 @@ p {
   padding-bottom: 4rem; }
   .about-number-stats .details {
     color: #fff;
-    width: 30%;
+    width: 40%;
     margin: 50px auto;
     text-align: center; }
   .about-number-stats p:first-child {
@@ -361,7 +379,7 @@ p {
     font-weight: bold;
     margin-bottom: 0; }
   .about-number-stats p {
-    margin-top: 0; }
+    margin-top: 7px; }
 
 .about-projects {
   width: 93%;
@@ -369,18 +387,18 @@ p {
   .about-projects .project-txt {
     text-align: center; }
     .about-projects .project-txt h3 {
-      width: 250px;
-      font-size: bold; }
+      font-size: bold;
+      padding-top: 3rem; }
     .about-projects .project-txt p {
-      width: 70%;
-      margin: 0 auto;
       padding-bottom: 5rem; }
 
 .infos-pictures .design-txt img {
   width: 100%; }
 
 .infos-pictures p {
-  text-align: center; }
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0; }
 
 .about-posts {
   background-color: #f6f6fc;
@@ -434,22 +452,25 @@ p {
 @media screen and (min-width: 720px) {
   .about-me-details-txt {
     display: flex;
-    width: 82%;
+    width: 90%;
     margin: 0 auto; }
     .about-me-details-txt .man-picture img {
-      width: 350%;
-      height: 325px; }
+      width: 310px;
+      height: 260px; }
     .about-me-details-txt .info-personal-txt {
-      padding-left: 45%;
+      padding-left: 12%;
       padding-top: 5.5rem; }
       .about-me-details-txt .info-personal-txt p {
-        padding-bottom: 0.5rem;
-        padding-top: 3px; }
+        width: 95%;
+        padding-bottom: 0;
+        padding-top: 0; }
       .about-me-details-txt .info-personal-txt .word-about-me {
         font-size: 10px;
         padding-bottom: 0; }
+      .about-me-details-txt .info-personal-txt .btn {
+        width: 118px; }
   .my-offered-services-txt p {
-    width: 50%;
+    width: 65%;
     margin: 0 auto; }
   .services-content {
     width: 87%;
@@ -460,36 +481,37 @@ p {
     .services-content div {
       margin: 2px; }
   .about-number-stats {
-    padding: 2.5rem; }
+    padding: 0.5rem; }
   .contor-txt {
     display: flex;
     width: 80%;
     margin: 0 auto; }
     .contor-txt p:first-child {
       font-size: 22px; }
-  .about-projects .project-txt h3 {
-    width: 330px; }
   .infos-pictures {
     display: flex;
     width: 97%;
     margin: 0 auto; }
     .infos-pictures .design-txt {
       margin: 7px; }
-  .latest-post-txt p {
-    width: 60%;
-    margin: 0 auto;
-    padding-bottom: 1.5rem; }
+  .latest-post-txt {
+    padding-top: 3rem; }
+    .latest-post-txt p {
+      width: 70%;
+      margin: 0 auto;
+      padding-bottom: 5px;
+      padding-top: 10px; }
   .infos-about-post {
     display: flex;
     width: 89%;
     margin: 0 auto;
-    padding-bottom: 4rem; }
+    padding-bottom: 2rem; }
     .infos-about-post .post-picture-txt {
       margin: 10px; }
       .infos-about-post .post-picture-txt p {
         margin-left: 0; }
     .infos-about-post img {
-      height: 190px; }
+      height: 140px; }
   .info-comment img {
     width: 20px;
     height: 20px; }
@@ -506,16 +528,18 @@ p {
   .about-me-details-txt {
     max-width: 950px; }
     .about-me-details-txt .man-picture {
-      margin-left: 0;
-      margin-right: 0; }
+      padding-left: 40px; }
       .about-me-details-txt .man-picture img {
-        width: 420px; }
+        width: 400px;
+        height: 266px; }
     .about-me-details-txt .info-personal-txt {
-      padding-top: 6rem;
-      padding-left: 7.8rem; }
+      padding-top: 6rem; }
       .about-me-details-txt .info-personal-txt p {
-        width: 385px;
-        padding-bottom: 1rem; }
+        width: 340px;
+        padding-bottom: 0;
+        padding-top: 0; }
+      .about-me-details-txt .info-personal-txt .btn {
+        width: 150px; }
   .about-services-txt .my-offered-services-txt {
     max-width: 900px;
     margin: 0 auto; }
