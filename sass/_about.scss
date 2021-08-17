@@ -57,6 +57,8 @@
             margin-top: 1rem;
         }
     }
+}
+.about-body{
     .about-experiences{
         margin-bottom: 7rem;
         h3{
@@ -125,7 +127,7 @@
 .about-body{
     .about-clients-comments{
         background-color: $main;
-        margin-bottom: 5rem;
+        padding-bottom: 6rem;
     }
     .clients-feedback-txt{
         padding-top: 5rem;
@@ -140,14 +142,18 @@
             text-align: center;
         }
     }
+}
+.about-body{
     .comment-picture{
-        background-color: $Couleur3;
         display: flex;
         padding-top: 1rem;
-        padding-bottom: 0.8rem;
+        background-color: $Couleur3;
+        padding-bottom: 1rem;
         h5{
             text-align:start;
             padding-left: 0;
+            margin: 0;
+            padding-top: 10px;
         }
         img{
             width: 20px;
@@ -157,9 +163,11 @@
         }
         p{
             width: 90%;
+            margin: 0;
         }
         .comment{
             padding-left: 20px;
+            padding-top: 10px;
         }
     }
     .comment-picture:nth-child(2){
@@ -203,6 +211,8 @@
         .details-content{
             display: flex;
         }
+    }
+    .about-body{
         .man-picture{
             img{
                 width: 330px;
@@ -270,6 +280,8 @@
                 padding-left: 20px;
             }
         }
+    }
+    .about-body{
         .infos-comments{
             display: flex;
             padding-bottom: 3.7rem;
@@ -278,6 +290,9 @@
             div{
                 margin: 10px;
             }
+        }
+        .about-clients-comments{
+            padding-bottom: 0.5rem;
         }
     }
 }
@@ -290,7 +305,7 @@
         .about-me-details-txt{
             max-width:910px ;
             h3{
-                font-size: 28px;
+                font-size: 27px;
             }
             .man-picture{
                 padding-left: 0;
@@ -311,6 +326,13 @@
                 margin-top: 1.5rem;
             }
         }
+    }
+    .about-body{
+        .about-experiences{
+            h3{
+                font-size: 16px;
+            }
+        }
         .infos-comments{
             max-width: 945px;
         }
@@ -322,6 +344,5 @@
                 order: 5;
             }
         }
-        
     }
 }

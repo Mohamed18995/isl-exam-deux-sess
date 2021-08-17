@@ -660,7 +660,7 @@ p {
 
 .about-body .about-clients-comments {
   background-color: #f6f6fc;
-  margin-bottom: 5rem; }
+  padding-bottom: 6rem; }
 
 .about-body .clients-feedback-txt {
   padding-top: 5rem;
@@ -674,22 +674,26 @@ p {
     text-align: center; }
 
 .about-body .comment-picture {
-  background-color: #fff;
   display: flex;
   padding-top: 1rem;
-  padding-bottom: 0.8rem; }
+  background-color: #fff;
+  padding-bottom: 1rem; }
   .about-body .comment-picture h5 {
     text-align: start;
-    padding-left: 0; }
+    padding-left: 0;
+    margin: 0;
+    padding-top: 10px; }
   .about-body .comment-picture img {
     width: 20px;
     height: 20px;
     padding-top: 0.5rem;
     padding-left: 9%; }
   .about-body .comment-picture p {
-    width: 90%; }
+    width: 90%;
+    margin: 0; }
   .about-body .comment-picture .comment {
-    padding-left: 20px; }
+    padding-left: 20px;
+    padding-top: 10px; }
 
 .about-body .comment-picture:nth-child(2) {
   display: none; }
@@ -766,7 +770,9 @@ p {
     width: 92%;
     margin: 0 auto; }
     .about-body .infos-comments div {
-      margin: 10px; } }
+      margin: 10px; }
+  .about-body .about-clients-comments {
+    padding-bottom: 0.5rem; } }
 
 /* version PC */
 @media screen and (min-width: 900px) {
@@ -774,7 +780,7 @@ p {
   .about-body .about-me-details-txt {
     max-width: 910px; }
     .about-body .about-me-details-txt h3 {
-      font-size: 28px; }
+      font-size: 27px; }
     .about-body .about-me-details-txt .man-picture {
       padding-left: 0;
       padding-right: 0; }
@@ -788,6 +794,8 @@ p {
     .about-body .info-personal-txt .btn {
       width: 150px;
       margin-top: 1.5rem; }
+  .about-body .about-experiences h3 {
+    font-size: 16px; }
   .about-body .infos-comments {
     max-width: 945px; }
   .about-body .content-pictures :nth-child(4), .about-body .content-pictures :nth-child(5) {
