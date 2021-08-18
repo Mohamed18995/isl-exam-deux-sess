@@ -29,7 +29,7 @@ h4 {
   font-weight: bold;
   text-align: center;
   padding-left: 6%;
-  margin-bottom: 12px;
+  margin-bottom: 4px;
   margin-top: 15px;
   color: #222222; }
 
@@ -162,9 +162,9 @@ p {
 .show-close {
   display: none; }
 
-.l-main-header-menu_menu-icon {
+.header_menu-icon {
   z-index: 2; }
-  .l-main-header-menu_menu-icon .fa-bars {
+  .header_menu-icon .fa-bars {
     font-size: 19px; }
 
 /* version tablette */
@@ -192,7 +192,7 @@ p {
         height: 390px; }
   .nav li:nth-child(1) a {
     color: #8490ff; }
-  .l-main-header-menu_menu-icon {
+  .header_menu-icon {
     display: none; }
   .l-main-header img {
     height: 22px;
@@ -392,14 +392,14 @@ p {
       font-size: bold;
       padding-top: 3rem; }
     .about-projects .project-txt p {
-      padding-bottom: 5rem; }
+      padding-bottom: 6rem; }
 
 .infos-pictures .design-txt img {
   width: 100%; }
 
 .infos-pictures p {
   text-align: center;
-  padding-top: 0;
+  padding-bottom: 10px;
   margin-top: 0; }
 
 .about-posts {
@@ -415,7 +415,8 @@ p {
       text-align: center; }
   .about-posts .infos-about-post {
     width: 93%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-bottom: 3rem; }
     .about-posts .infos-about-post img {
       width: 100%; }
     .about-posts .infos-about-post .post-picture-txt {
@@ -523,7 +524,7 @@ p {
     .several-pictures .content-pictures .image {
       display: block; }
     .several-pictures .content-pictures img {
-      width: 90px; } }
+      width: 75px; } }
 
 /* version PC */
 @media screen and (min-width: 900px) {

@@ -106,7 +106,7 @@
     display: none;
 }
 
-.l-main-header-menu_menu-icon{
+.header_menu-icon{
     z-index: 2;
     .fa-bars{
         font-size: 19px;
@@ -149,7 +149,7 @@
     .nav li:nth-child(1) a{
         color: $bannerBg1;
     }
-    .l-main-header-menu_menu-icon{
+    .header_menu-icon{
         display: none;
     }
     .l-main-header{
