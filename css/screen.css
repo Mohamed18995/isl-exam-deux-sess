@@ -98,6 +98,9 @@ p {
 .l-main-header .nav-menu {
   display: none; }
 
+.body-scroll {
+  overflow: hidden; }
+
 .l-main-header .mobile-menu {
   display: block;
   position: fixed;
